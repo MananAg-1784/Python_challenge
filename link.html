@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <title>Level 4</title>
+      <script src=
+        "https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                crossorigin= "anonymous"></script>
+            <script src=
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+        <style>
+            body {
+                background-color: black;
+            }
+            img{
+                display: block;
+                margin: 80px auto;
+                width: 20%;
+            }
+            div{
+                color: yellow;
+                text-align: center;
+                margin: auto;
+                padding: 0px 150px;
+                font-size: 15px;
+                font-family: monospace;
+            }
+        </style>
+
+   </head>
+   <body>
+
+    <img src="static/cookies.jpeg" alt="" >
+    <div>Cookies are amazing aren't They</div>
+         
+ 
+        <script>
+            $(document).ready(function () {
+                document.cookie = 'This is Christ cookie'+"="+escape('ZW5jb2RpbmdfZGVjb2Rpbmco')+ "; path=/";
+            });
+
+        </script>
+
+   </body>
+</html>

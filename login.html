@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</head>
+
+<body oncontextmenu="return false"  >
+  <script>
+    alert('You have to enter the user name and password')
+		let foo = prompt('Username');
+    if ( foo == "Christ") {
+      let food = prompt('password');
+      if ( foo == "Christ" && food == "BCA") {
+          $(location).attr('href','look_for_nothing.html');
+          
+      }else {
+        $(location).attr('href','zip.html');
+      } }
+    else {
+      $(location).attr('href','zip.html');
+    }
+
+  </script>
+</body>
+
+</html>
