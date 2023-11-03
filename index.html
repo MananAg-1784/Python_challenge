@@ -3,34 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level 1</title>
+    <title>Home</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
         body {
-            background-color: black;
+            background: url('static/background.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        h1,h2{
+            color: #202020;
+            font-family: 'Graduate', serif;
+            text-align: center;
+            -webkit-font-smoothing : none;
+        }
+        h2{
+            font-size: 90px;
+            margin: 40px !important;
         }
         img{
             display: block;
             margin: 60px auto;
             margin-bottom: 0px !important;
-            width: 25%;
+            width: 20%;
         }
         div, li{
-            color: yellow;
+            color: rgb(26, 26, 26);
             margin: auto;
-            font-size: 17px;
+            font-size: 20px;
+            font-weight: 700;
             padding: 3px;
             font-family: sans-serif;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none;
+            text-align: center;
+        }
+        button{
+            padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 30px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <img src="static/calculate.jpg" alt="" >
-    <div style = "text-align: center; margin-top: 20px;">Hint: Change the URL</div>
+    <img src="static/Igniculus.png" alt="">
+    <!-- <h1>LABYRINTH, IGNICULUS CLUB</h1> -->
+
+    <h2>CODE CYPHER</h1>
+
     <ul style="margin-top: 30px">
         <div>Tips that might help :</div>
-        <li>To advance to new levels you have to change the url with the answer you ge</li>
+        <li>To advance to new levels you have to change the url with the answer you get</li>
         <li>To solve the questions you have to find hits in the page</li>
         <li>It can be in the source code, page url or even the title</li>
+        <button>
+            <a href="level_1.html">START</a>
+        </button>
     </ul>
+
 </body>
 </html>
